@@ -1,0 +1,11 @@
+annotated/*
+!annotated/DK.constitution.tabulator.vrt
+memo*.txt
+data/*
+!data/dkconstitutiontest
+registry/*
+!registry/dkconstitutiontest
+.svn
+encodingscripts/output
+transformation/threats
+
