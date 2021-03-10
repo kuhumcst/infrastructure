@@ -61,6 +61,8 @@ I `frontend` konfigureres korpusserne i Korp-frontenden.
 
 Husk at validere diverse javascript-filer for at undgå at se underlige fejl i javascript-konsollen. Med https://codebeautify.org/jsvalidate eller lignende. En særlig gotcha er at variable nu bruger camelcase i stedet for snakecase, fx `settings.preselectedCorpora` i stedet for `settings.preselected_corpora`.
 
+Husk ift. håndholdt styling af attributter i højrepanelet: The S-attrs used here should be kept under structAttributes in the corpora. Avoid displaying them twice by setting hideSidebar: true in the attribute definitions.
+
 
 
 ## Mappen corpora
