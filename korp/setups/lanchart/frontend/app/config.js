@@ -2,6 +2,9 @@ console.log('Top of config.js');
 
 var isLab = window.isLab || false;
 
+// The statistics tab will fail if this setting is left undefined [sg]
+settings.groupStatistics = [];
+
 settings.autocomplete = true;
 settings.enableMap = !isLab;
 settings.mapPosTag = ["PM", "NNP", "NNPS"]
