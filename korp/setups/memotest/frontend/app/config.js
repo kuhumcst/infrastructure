@@ -12,7 +12,7 @@ settings.hitsPerPageValues = [25,50,75,100,500,1000]
 settings.enableBackendKwicDownload = false
 settings.enableFrontendKwicDownload = true
 
-settings.languages = ["sv", "en", "da"];
+settings.languages = ["en", "da"];
 settings.defaultLanguage = "da";
 
 settings.downloadFormats = [
@@ -63,7 +63,7 @@ settings.reduceStructAttributeSelector = "intersection";
 
 settings.filterSelection = "intersection"
 
-settings.newsDeskUrl = "https://svn.spraakdata.gu.se/sb-arkiv/pub/component_news/json/korpnews.json";
+// settings.newsDeskUrl = "https://svn.spraakdata.gu.se/sb-arkiv/pub/component_news/json/korpnews.json";
 
 settings.wordpictureTagset = {
     // supported pos-tags
