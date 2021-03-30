@@ -1,6 +1,8 @@
 
 var isLab = window.isLab || false;
 
+settings.groupStatistics = [];
+
 settings.autocomplete = true;
 settings.enableMap = !isLab;
 settings.mapPosTag = ["PM", "NNP", "NNPS"]
