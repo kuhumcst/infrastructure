@@ -125,6 +125,10 @@ settings.modeConfig = [
     {
         localekey: "memo_testcorpus_authornovels",
         mode: "memo_authornovels"
+    },
+    {
+        localekey: "memo_testcorpus_frakturgold",
+        mode: "memo_frakturgold"
     }
 ];
 

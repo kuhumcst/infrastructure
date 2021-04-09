@@ -1,6 +1,7 @@
 #!/bin/bash
 # encode_MEMO_individual_files.sh
 # Encode de enkelte filer i Measuring Modernity-testkorpusset som hver sit korpus vha. cwb-encode.
+# Bruges p.t. til at sætte korpusser op af udvalgte forfattere.
 
 CORPORADIR=`dirname "$0"`/..
 CORPORADIR=`realpath $CORPORADIR`

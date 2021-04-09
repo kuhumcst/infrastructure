@@ -55,7 +55,7 @@ Byg det specifikke Korp-setup i memotest-mappen. Herunder køres to encodingscri
 
 ```
 cd setups/memotest
-docker-compose up -d --build ; docker-compose exec backend bash /opt/corpora/encodingscripts/encode_MEMO_individual_files.sh ; docker-compose exec backend bash /opt/corpora/encodingscripts/encode_MEMO_yearcorpora.sh
+docker-compose down ; docker-compose up -d --build ; docker-compose exec backend bash /opt/corpora/encodingscripts/encode_MEMO_individual_files.sh ; docker-compose exec backend bash /opt/corpora/encodingscripts/encode_MEMO_yearcorpora.sh ; docker-compose exec backend bash /opt/corpora/encodingscripts/encode_MEMO_fraktur_gold.sh
 ```
 
 Nu kan romanerne tilgås i Korp på http://localhost:9111, og backenden på http://localhost:1234.

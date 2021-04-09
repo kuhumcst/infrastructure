@@ -1,5 +1,5 @@
-settings.primaryColor = "#edf7f4";
-settings.primaryLight = "#edf7f4";
+settings.primaryColor = "whitesmoke";
+settings.primaryLight = "whitesmoke";
 settings.autocomplete = false;
 settings.lemgramSelect = false;
 settings.wordpicture = false;
