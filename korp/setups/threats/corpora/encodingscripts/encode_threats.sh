@@ -23,12 +23,12 @@ fi
 echo "Generating threats corpora from $THREATSDIR"
 (cd $THREATSDIR/programmer ; perl RUN-korp.pl)
 
-CORPUSFILES=$THREATSDIR/KORP-korpora/*.vrt
+CORPUSFILES=$THREATSDIR/corpora_enumerated/*.vrt
 
 #<corpus title="Trusler fra Facebook" datefrom="01012007" dateto="31122007">
 #<text title="FAC-001.xml" date="" datefrom="" dateto="" timefrom="000000" timeto="235959" Instrument="digital" Platform="social_media" Mediatype="messenger" Original="original" Domain="individual" Exactdate="" Notbeforedate="" Notafterdate="" Origplace="private" Juridoutcome="juridical" Sendertype="sender_unknown"SenderID="s0341" Senderage="unknown" Sendergender="unknown" Victimtype="victim_individual_politician" VictimID="v0306" Victimage="1973" Victimgender="female" SenderTargetrelation="none">
 #<p idp="1">
-P_attrs="-P pos -P msd -P lemma"
+P_attrs="-P pos -P msd -P lemma -P numincorp -P numintext -P numinp -P numinsent"
 S_attrs="-S p:0+idp -S sentence:0+id -S corpus:0+title+id+datefrom+dateto -S text:0+title+date+datefrom+dateto+timefrom+timeto+Instrument+Platform+Mediatype+Original+Domain+Exactdate+Notbeforedate+Notafterdate+Origplace+Juridoutcome+Sendertype+SenderID+Senderage+Sendergender+Victimtype+VictimID+Victimage+Victimgender+SenderTargetrelation"
 
 

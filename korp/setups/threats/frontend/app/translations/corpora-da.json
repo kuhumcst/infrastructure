@@ -1,3 +1,7 @@
 {
-    "threats": "Trusler"
+    "threats": "Trusler",
+    "num_in_corp": "Tokennr. i korpus",
+    "num_in_text": "Tokennr. i tekst",
+    "num_in_p": "Tokennr. i paragraf",
+    "num_in_sent": "Tokennr. i sætning"
 }
