@@ -7,14 +7,13 @@ settings.wordpicture = false;
 settings.corpora = {};
 settings.corporafolders = {};
 // Note: Subtle gotcha - preselectedCorpora was previously preselected_corpora.
-settings.preselectedCorpora = ["threats_art"];
+settings.preselectedCorpora = ["threats_jeb","threats_jtb","threats_fac","threats_kar", "threats_art"];
 
 console.log('Preselected corpora defined');
 
 settings.corporafolders.trusler = {
         title : "Danske trusler",
-        /*contents : ["threats_jeb","threats_jtb","threats_fac","threats_kar", "threats_art"],*/
-        contents : ["threats_art"],
+        contents : ["threats_jeb","threats_jtb","threats_fac","threats_kar", "threats_art"],
         description : "Trusselsbreve mv."
 };
 
@@ -132,7 +131,6 @@ var truStructAttributes = {
 console.log('truStructAttributes defined.');
 
 
-/*
 settings.corpora.threats_jeb = {
     id : "threats_jeb",
     title : "Udvalgte trusselsbreve fra Rigspolitiets arkiv: JEB 1",
@@ -185,7 +183,6 @@ settings.corpora.threats_kar = {
     attributes : truAttrs,
     structAttributes : truStructAttributes
 };
-*/
 
 settings.corpora.threats_art = {
     id : "threats_art",
