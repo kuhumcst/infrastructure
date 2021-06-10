@@ -3,5 +3,5 @@
     "num_in_corp": "Token no. in corpus",
     "num_in_text": "Token no. in text",
     "num_in_p": "Token no. in paragraph",
-    "num_in_sent": "Token no. in sentence"
+    "num_in_line": "Token no. in line"
 }

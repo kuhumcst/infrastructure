@@ -79,8 +79,8 @@ var p_numinp = {
     order: 8,
     stats_stringify: function(values) {return values.join(" ")}
 }; 
-var p_numinsent = {
-    label: "num_in_sent",
+var p_numinline = {
+    label: "num_in_line",
     opts: settings.defaultOptions,
     order: 9,
     stats_stringify: function(values) {return values.join(" ")}
@@ -96,7 +96,7 @@ var truAttrs = {
     numincorp : p_numincorp,
     numintext : p_numintext,
     numinp : p_numinp,
-    numinsent : p_numinsent
+    numinline : p_numinline
 };
 
 $("#lemgram_list_item").remove();
